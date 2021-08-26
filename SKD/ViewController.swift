@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        os_log("SKD_LOG viewDidLoad")
+        os_log("SKD_LOG viewDidLoad hello")
         
         var indent: ClockInIntent?
         indent=ClockInIntent()
